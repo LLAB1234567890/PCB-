@@ -1,0 +1,22 @@
+﻿Designator,Value,Footprint,MPN,Manufacturer,LCSC,Assembly,Note
+U2,ESP32-S3-DEVKITC-1-N8R8,ESP32_S3_DevKitC_1_N8R8,ESP32-S3-DEVKITC-1-N8R8,ESPRESSIF,C20541519,Manual,"ESP32-S3 DevKitC-1 v1.1 N8R8. GPIO4 STEP, GPIO5 DIR, GPIO6 ARM, GPIO1 RUN feedback, GPIO2 SET, GPIO21 lamp, GPIO47 watchdog. Pads32-34 GPIO35-37 unavailable with PSRAM. J19 power link must be removed for ordinary USB powering."
+J1,KF301-5.0-2P,Source_J1,KF301-5.0-2P,KEFA(科发),C474881,Manual,
+U1,K78U05-1000R3,K78U05_1000R3,K78U05-1000R3,MORNSUN,,Manual,专用独立 CASE 铜岛，手工装配；禁止并联输出
+U11,K78UX6-1000R3,K78U05_1000R3,K78UX6-1000R3,MORNSUN,,Manual,专用独立 CASE 铜岛，手工装配；禁止并联输出
+U33,K78UX6-1000R3,K78U05_1000R3,K78UX6-1000R3,MORNSUN,,Manual,RC/RO 独立供电；手工装配
+J3,KF301-5.0-2P,Source_J3,KF301-5.0-2P,KEFA(科发),C474881,Manual,"SS-01GL2 COM/NC; NO unused. LO. Approx 7mA at 6.5V, no external wetting-load resistor. Open or broken wire = fault."
+J13,KF301-5.0-2P,Source_J13,KF301-5.0-2P,KEFA(科发),C474881,Manual,"SS-01GL2 COM/NC; NO unused. LC. Approx 7mA at 6.5V, no external wetting-load resistor. Open or broken wire = fault."
+J14,KF301-5.0-2P,Source_J14,KF301-5.0-2P,KEFA(科发),C474881,Manual,"SS-01GL2 COM/NC; NO unused. RC. Approx 7mA at 6.5V, no external wetting-load resistor. Open or broken wire = fault."
+J15,KF301-5.0-2P,Source_J15,KF301-5.0-2P,KEFA(科发),C474881,Manual,"SS-01GL2 COM/NC; NO unused. RO. Approx 7mA at 6.5V, no external wetting-load resistor. Open or broken wire = fault."
+U18,KF301-5.0-3P,Source_U18,KF301-5.0-3P,KEFA(科发),C474882,Manual,
+U19,KF301-5.0-3P,Source_U19,KF301-5.0-3P,KEFA(科发),C474882,Manual,
+U20,KF301-5.0-2P,Source_J1,KF301-5.0-2P,KEFA(科发),C474881,Manual,1=ALM/P，2=COM-；原三针端子改为两针
+U21,KF301-5.0-2P,Source_U21,KF301-5.0-2P,KEFA(科发),C474881,Manual,绿色 LAY711BN32 的 NO 触点，开帘
+U22,KF301-5.0-2P,Source_U22,KF301-5.0-2P,KEFA(科发),C474881,Manual,红色 LAY711BN42 的 NC 触点；按下或断线均停止
+U23,KF301-5.0-2P,Source_U23,KF301-5.0-2P,KEFA(科发),C474881,Manual,黑色 LAY711BN22 的 NO 触点，关帘
+U24,KF301-5.0-2P,Source_U24,KF301-5.0-2P,KEFA(科发),C474881,Manual,接板外两路急停NC串联之后、K1线圈A1的24V节点；不再接驱动器母线；仅检测，不承载电机功率
+U30,KF301-5.0-4P,KF301_5_0_4P,KF301-5.0-4P,KEFA(科发),C5350152,Manual,"1=3V3, 2=GND, 3=SDA, 4=SCL"
+J16,DIR_SELECT,PinHeader_1x03_P2.54mm_Vertical,2.54mm 1x3 male header - exact MPN TBD,Generic,,Manual,1-2(default): GPIO5 HIGH means OPEN; 2-3: GPIO5 LOW means OPEN. Fit shunt only with power off.
+J17,ALM_POLARITY,PinHeader_1x03_P2.54mm_Vertical,2.54mm 1x3 male header - exact MPN TBD,Generic,,Manual,"1-2(default): ALM raw LOW is healthy (normally conducting output, broken wire faults). 2-3: raw HIGH is healthy; broken-wire detection lost."
+J18,B4B-XH-A 4P,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,B4B-XH-A(LF)(SN),JST,,Manual,"GQ12 momentary 1NO+1NC, 24V red illuminated metal SET. J18: 1=NO contact A (C/COM if marked), 2=NO contact B, 3=24V lamp L+, 4=lamp L-. NC insulated and unused. Exact MPN, terminal marks and SPDT rear dimensions must be confirmed; never apply 24V to ESP32 GPIO."
+J19,MCU_PWR_LINK,PinHeader_1x02_P2.54mm_Vertical,B-2100S02P-A110,Ckmtw,C124375,Manual,Fit shunt in24V operation; REMOVE when ordinary USB provides DevKit power. Never assume simultaneous supply supported.

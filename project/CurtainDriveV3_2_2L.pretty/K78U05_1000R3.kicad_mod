@@ -1,0 +1,178 @@
+(footprint "K78U05_1000R3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "115808c5-25d0-4002-b9a6-01638238a737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "K78U05-1000R3"
+		(at 5.75 5.3135 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b07d16a-e57c-458a-8387-6e2470e8a7fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b4bcf99-b5f4-40a6-8bb9-799c313cb8c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d189b540-5193-4d24-ba03-2df0c35d316d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6e52120-eb7a-42d2-ae21-e10b188b43b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "K78U05-1000R3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32c79152-d238-4fe9-ac9d-3bd1e155b51c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "MORNSUN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3afe81d4-ca73-4425-8e39-6b20c0e701cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Rating" "9-75V in / 5V 1A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8d44658-d719-44ec-a7cd-867c8edfc567")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Assembly note" "专用独立 CASE 铜岛，手工装配；禁止并联输出"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddfae5e6-df21-417b-b0a7-c7c91e8171f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.55 -3.7)
+		(end 6.55 5.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c68ee89-a2cc-49f2-a2b5-a8162e0b4342")
+	)
+	(fp_rect
+		(start -6.05 -3.2)
+		(end 6.05 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7bceb2c2-bc42-4ec4-87d5-f3ee7149e2be")
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 1.7 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28fda4b9-01fb-4c91-94e7-691855b48464")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.7 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8faf6615-8d28-4cfa-89ff-66e330570fe6")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.7 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "617304fd-ffa1-4879-a875-ef87bae3c4e0")
+	)
+	(pad "4" thru_hole oval
+		(at -5.75 1.1 90)
+		(size 4 2.2)
+		(drill oval 2.8 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa93580b-db89-4f5c-8fb3-0e543f52d051")
+	)
+	(pad "5" thru_hole oval
+		(at 5.75 1.1 90)
+		(size 4 2.2)
+		(drill oval 2.8 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4722ca9-a2da-4044-ad55-35e22bc67896")
+	)
+	(embedded_fonts no)
+)
