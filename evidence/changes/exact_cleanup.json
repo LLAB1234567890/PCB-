@@ -1,0 +1,138 @@
+{
+  "remove": [
+    "1f338b02-fe09-4ff3-966a-1d94c914e3d8",
+    "8ab343fd-f4b8-4f7b-87fc-ed01947274fe",
+    "6b2f5dfa-9bd3-4995-9c69-43c24ed15c43",
+    "e4b7c0dd-51ab-5654-ae63-e18df2026b07",
+    "3d67e8e4-7640-5a43-bf4a-e931a89657ba",
+    "de5792f6-eaac-4a7c-96d5-8aa73259efa3",
+    "bcfe4e7c-cd7f-42ea-8d41-e94ed3e8a363",
+    "bf9bf2bf-131f-4a78-8186-5713c089cea4"
+  ],
+  "items": [
+    {
+      "type": "segment",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "width": 0.25,
+      "a": [
+        105.088,
+        90.9625
+      ],
+      "b": [
+        105.088,
+        91.8233
+      ]
+    },
+    {
+      "type": "segment",
+      "net": "ESTOP_OK",
+      "side": "top",
+      "width": 0.25,
+      "a": [
+        158.3862,
+        98.3518
+      ],
+      "b": [
+        159.4852,
+        99.4508
+      ]
+    }
+  ],
+  "records": [
+    {
+      "action": "remove_explicitly_covered_redundancy",
+      "old_uuids": [
+        "1f338b02-fe09-4ff3-966a-1d94c914e3d8"
+      ],
+      "net": "+3V3",
+      "side": "bottom",
+      "coverage_proof": "entire track capsule inside other explicit same-net copper with2um inward margin; zones not used",
+      "covering_keys": [
+        "U36.14",
+        "6d7f38f6-c42c-4725-a55a-be36128bc7df",
+        "934fcae7-4678-4ee3-aa11-7d616201b72d"
+      ]
+    },
+    {
+      "action": "remove_explicitly_covered_redundancy",
+      "old_uuids": [
+        "8ab343fd-f4b8-4f7b-87fc-ed01947274fe"
+      ],
+      "net": "+3V3",
+      "side": "bottom",
+      "coverage_proof": "entire track capsule inside other explicit same-net copper with2um inward margin; zones not used",
+      "covering_keys": [
+        "e57b7f79-12c1-45db-bfb1-c977d826d1f4",
+        "61994c5d-6044-4d3d-925d-aa6939311a62",
+        "U35.14",
+        "0e484792-8327-4f72-a855-261bad140129"
+      ]
+    },
+    {
+      "action": "remove_explicitly_covered_redundancy",
+      "old_uuids": [
+        "6b2f5dfa-9bd3-4995-9c69-43c24ed15c43"
+      ],
+      "net": "+3V3",
+      "side": "bottom",
+      "coverage_proof": "entire track capsule inside other explicit same-net copper with2um inward margin; zones not used",
+      "covering_keys": [
+        "a34e112d-a17d-4066-8e4c-e929b9171a0e",
+        "645afeee-3c22-4b80-b560-8d73451ec251",
+        "cae7ee93-5f38-4765-b44b-d3a79d7fddfb",
+        "C25.1"
+      ]
+    },
+    {
+      "action": "exact_collinear_coverage_union",
+      "old_uuids": [
+        "e4b7c0dd-51ab-5654-ae63-e18df2026b07",
+        "3d67e8e4-7640-5a43-bf4a-e931a89657ba"
+      ],
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "new_geometry": {
+        "type": "segment",
+        "net": "I2C_SDA",
+        "side": "bottom",
+        "width": 0.25,
+        "a": [
+          105.088,
+          90.9625
+        ],
+        "b": [
+          105.088,
+          91.8233
+        ]
+      },
+      "branch_proof": "Integer collinearity and interval union exactly preserve line coverage and width. No branch is represented only by a deleted endpoint."
+    },
+    {
+      "action": "exact_collinear_coverage_union",
+      "old_uuids": [
+        "de5792f6-eaac-4a7c-96d5-8aa73259efa3",
+        "bcfe4e7c-cd7f-42ea-8d41-e94ed3e8a363",
+        "bf9bf2bf-131f-4a78-8186-5713c089cea4"
+      ],
+      "net": "ESTOP_OK",
+      "side": "top",
+      "new_geometry": {
+        "type": "segment",
+        "net": "ESTOP_OK",
+        "side": "top",
+        "width": 0.25,
+        "a": [
+          158.3862,
+          98.3518
+        ],
+        "b": [
+          159.4852,
+          99.4508
+        ]
+      },
+      "branch_proof": "Integer collinearity and interval union exactly preserve line coverage and width. No branch is represented only by a deleted endpoint."
+    }
+  ],
+  "method": "Explicit copper containment and exact integer collinear interval union. No layer/name/value/pad/via changes."
+}

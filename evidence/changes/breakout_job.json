@@ -1,0 +1,62 @@
+{
+  "scope": "Terminal breakout only; the common trunk is already planned and protected. All other copper immutable.",
+  "routes": [
+    {
+      "net": "I2C_SCL",
+      "from": "R32.2",
+      "to": "EXISTING_SCL_VIA.1",
+      "widths": [
+        0.2
+      ]
+    }
+  ],
+  "remove": [],
+  "allowed_box": [
+    94,
+    78,
+    112,
+    97.0
+  ],
+  "outline": [
+    [
+      192.268,
+      136.868
+    ],
+    [
+      89.788,
+      136.868
+    ],
+    [
+      89.788,
+      120.0
+    ],
+    [
+      99.1,
+      120.0
+    ],
+    [
+      99.1,
+      100.0
+    ],
+    [
+      89.788,
+      100.0
+    ],
+    [
+      89.788,
+      65.748
+    ],
+    [
+      192.268,
+      65.748
+    ]
+  ],
+  "grid_mm": 0.025,
+  "via_diameter": 0.5,
+  "via_drill": 0.25,
+  "return_via_max_mm": 5,
+  "via_cost": 8,
+  "return_penalty": 0.3,
+  "track_return_penalty": 0.5,
+  "timeout_s": 50
+}

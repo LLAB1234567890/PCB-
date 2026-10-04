@@ -1,0 +1,169 @@
+{
+  "scope": "No topology or BOM change; paired data corridor and two same-side pullup moves",
+  "placements": {
+    "R31": [
+      105.0,
+      89.5,
+      -90
+    ],
+    "R32": [
+      100.5,
+      82.5,
+      0
+    ]
+  },
+  "remove": [
+    "322359c5-d6a0-42a3-97ed-7af34c32d5f1",
+    "6f319a6a-0454-43bf-936a-94906f7d1417",
+    "91df9d95-f3cf-4eac-bc52-5c3b13e676ba",
+    "08ff2c4c-a13a-44d2-bef8-7eb5cc820007",
+    "0949eef4-4242-4790-8c47-556e3c6ff918",
+    "0bf00368-2cff-4439-8096-d08465eea2a7",
+    "16d0005e-86b5-41b1-832a-1e5e8586d3cf",
+    "1c6d1518-64f5-4ce0-be76-33d4715f7190",
+    "1e572b62-d9ba-4f9b-a2b9-5a153a8b422d",
+    "2361706e-754d-4ea4-a5c8-49d4f27512bd",
+    "25dedb1e-3422-46a4-ae16-3233008af1f7",
+    "45c22665-6d64-42aa-928a-f7177d98e0d8",
+    "58a950d2-a469-404a-8eff-afbc6298fc3b",
+    "5993791d-4d9a-433a-83ea-7751840a57a5",
+    "65361004-1e39-409f-94a7-c9f2454c4009",
+    "6bd769c6-ca2c-4065-88b7-5ae3d7be5bd7",
+    "71831203-7317-4aaa-891f-f4e1c6fa85ba",
+    "7acf8c96-c4b8-4c2c-af6b-b36ca2893b97",
+    "891fd992-ae4d-4035-85b0-7b3083a5d239",
+    "9f9ea926-65b2-47b5-a3c3-77ba6e291ae0",
+    "a9a66609-9b31-41e5-b654-8d1c8cb9ffa6",
+    "ab1be58e-c9b4-4671-b4af-b30832579ed3",
+    "b1129a9f-6049-4ffb-b2f7-be3d87b39c3b",
+    "ce0f854c-8587-4f61-bad2-509fc4ac7824",
+    "f0c8e962-9f1d-4d37-a68c-e4664b407c46",
+    "19c08327-8412-47fc-9e1a-7494dd6ca648",
+    "284e5bba-77e9-4283-9497-5e3019a1c7a7",
+    "2f81e58b-c3bb-44f6-984a-cc6f36f049a2",
+    "3d6a081b-a2fe-42b2-8f38-1e8c6c3a06ed",
+    "48a04107-2c3d-4c53-98f3-7452bb12ff77",
+    "68a31fa6-4955-4209-b3ac-0fc742a3e81a",
+    "6bd0bb13-893b-4caf-8b7e-77e4aee73426",
+    "8baaceb4-63cc-4044-bbd3-19e56fd7d77b",
+    "8fd72bcd-af91-4709-a91d-0f75f5377e1d",
+    "94f34f17-e43b-47d0-b2a5-b08baa3cda41",
+    "95978a67-f7dd-43a3-a7a0-5c2560d9e711",
+    "9a326e04-aab3-4aa4-bb38-11213dd708c0",
+    "a7d94c34-7209-484a-b03b-c63c3babc6ba",
+    "aa8cb88e-f6ad-4ca2-b181-8a7c8f70e370",
+    "bb884bf5-abc2-4d3b-ac24-174ea6b379d6",
+    "d81409d1-f471-497b-840b-2887376b0555",
+    "e1e70c7a-c048-4d0b-ba9e-6f0cb9e6c148",
+    "e97a60fb-99e8-45b6-ba22-a9797339cfe4",
+    "7bfe5fa2-54a6-4514-b400-53544a823cfe",
+    "42fd3b33-938e-44ef-8dfc-e15d45b96f46",
+    "c897c41e-71e3-44fc-aa38-9c5bc34a3962",
+    "ee8a91a1-21e9-404a-bb5d-38fb2544da82"
+  ],
+  "items": [
+    {
+      "uuid": "4e2a135d-29b9-5c93-97c1-197169d99547",
+      "type": "segment",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "a": [
+        103.94,
+        91.8233
+      ],
+      "b": [
+        105.088,
+        91.8233
+      ],
+      "width": 0.25,
+      "purpose": "Truncated branch at the existing connected via"
+    },
+    {
+      "uuid": "3d67e8e4-7640-5a43-bf4a-e931a89657ba",
+      "type": "segment",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "a": [
+        105.088,
+        91.8233
+      ],
+      "b": [
+        105.088,
+        91.598
+      ],
+      "width": 0.25,
+      "purpose": "Truncated branch at the existing connected via"
+    },
+    {
+      "uuid": "e4b7c0dd-51ab-5654-ae63-e18df2026b07",
+      "type": "segment",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "a": [
+        105.088,
+        90.9625
+      ],
+      "b": [
+        105.088,
+        91.598
+      ],
+      "width": 0.25,
+      "purpose": "Moved pullup to existing via; starts inside actual pad"
+    }
+  ],
+  "retained_source_data_objects": [
+    "1d708b76-33dc-4417-8a23-92ac3831ac5e",
+    "2775230d-5f0f-435d-a70a-e33c69e33944",
+    "36842d38-6573-4eb1-a74a-4b24a664ab8d",
+    "4d86698e-90da-4feb-b5ab-af232705ed4a",
+    "4fca2537-db0b-42e3-a143-c49c9b2fc945",
+    "7e4cedb6-a01c-4e55-8f88-2eadcaac7761",
+    "a7aae121-316b-4e37-a832-58b58cd0e23c",
+    "c0ec969c-daa2-4c0b-b287-486b3a589b37",
+    "c7c18eb9-aa1f-4d63-a8d7-6e998d0956bf",
+    "036d7193-3460-4e6d-8b34-24e8cf2e437d",
+    "9131e448-91b9-479d-a9d8-73addf60323e",
+    "f4ea94f0-4087-4fd0-bfae-ef70c5213f65",
+    "52fa7a50-c489-4ff2-a3a2-d2f32b232287",
+    "6e05e2d3-4b74-4017-bbd5-d8aa1a6a835b",
+    "725e9ed9-5c58-4a71-9087-c545b7a7f139",
+    "7b5c635a-b7e1-45b3-842a-c1d6707fef7e",
+    "a9a0e621-2603-49d6-8cc7-a1f45eaf0b1e",
+    "b143d783-4710-4a04-9c15-607a4e1b8a50",
+    "d0f6c611-4726-44f5-9ccd-9283c64d191f",
+    "438d997b-d829-4e75-ac4a-fd45d760af3b",
+    "89d58f1d-f142-4de2-9533-d02f6a7875cb",
+    "d0f058e7-cfd8-41d8-a251-c214b0164c78",
+    "d1854659-ef4c-4d33-a410-1c0fbe12a565",
+    "e37b6eec-726d-4e22-a534-813e8f713020",
+    "e5c1852f-a873-4ae4-9b10-b99847f119e2",
+    "ee3a51ec-0d59-45e6-833b-c76762e51a5b",
+    "fabf4768-2889-454e-892a-94f452edf4c2"
+  ],
+  "bundles": [
+    {
+      "id": "I2C_LIGHT",
+      "nets": [
+        "I2C_SDA",
+        "I2C_SCL",
+        "I2C_SDA_EXT",
+        "I2C_SCL_EXT"
+      ],
+      "source_breakout": [
+        117,
+        120,
+        133,
+        129
+      ],
+      "target_breakout": [
+        94,
+        80,
+        112,
+        100
+      ],
+      "corridor": "F.Cu westward southwest channel, then B.Cu northward west-of-logic band; wide spacing retains GND between vertical lanes.",
+      "pin_order": "GPIO9 pin15 left of GPIO10 pin16; SDA inner/north and SCL outer/south on westbound F.Cu trunk. SDA east/SCL west on northbound B.Cu. The fixed series/terminal breakout resolves their physical order.",
+      "electrical_boundary": "100R resistors split each logical lane into core/ext nets; no short across them; no equal-length serpentine."
+    }
+  ]
+}

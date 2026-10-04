@@ -1,0 +1,126 @@
+{
+  "revision": "V3.2 2L",
+  "source_pcb_sha256": "7d6288a3e79992e387e95aa80c018b5a480a0d5dae67df03d6c3de5389c8f986",
+  "case_parameter_sha256": "a46f15e7ff08756656f318bb246098f0e8ea3b79a2f9f59b1a995b7ee4a68936",
+  "case_valid": true,
+  "main_solids": 1,
+  "board_valid": true,
+  "post_count": 8,
+  "fixed_hole_alignment_mm": 0,
+  "inner_mm": [
+    117.48,
+    86.12
+  ],
+  "outer_main_mm": [
+    123.48,
+    92.12,
+    52.1
+  ],
+  "main_top": "fully open",
+  "pcb_top_to_rim_mm": 30.0,
+  "floor_to_PCB_bottom_mm": 17.5,
+  "foam_nominal_mm": 2.5,
+  "usb_windows_mm": [
+    15,
+    8
+  ],
+  "button_pods_outward_only": true,
+  "button_wire_apertures": [
+    {
+      "button": "OPEN",
+      "face": "south",
+      "u_mm": -31,
+      "size_mm": [
+        8,
+        6
+      ]
+    },
+    {
+      "button": "CLOSE",
+      "face": "south",
+      "u_mm": 31,
+      "size_mm": [
+        8,
+        6
+      ]
+    },
+    {
+      "button": "STOP",
+      "face": "north",
+      "u_mm": 0,
+      "size_mm": [
+        8,
+        6
+      ]
+    },
+    {
+      "button": "ESTOP",
+      "face": "west",
+      "u_mm": -22,
+      "size_mm": [
+        8,
+        6
+      ]
+    },
+    {
+      "button": "SET",
+      "face": "east",
+      "u_mm": 0,
+      "size_mm": [
+        8,
+        6
+      ]
+    }
+  ],
+  "field_ports": [
+    {
+      "name": "24V",
+      "face": "north",
+      "u": -36,
+      "size": [
+        12,
+        8
+      ],
+      "z": 32
+    },
+    {
+      "name": "SENSOR",
+      "face": "north",
+      "u": -50,
+      "size": [
+        8,
+        6
+      ],
+      "z": 32
+    },
+    {
+      "name": "LIMITS",
+      "face": "north",
+      "u": 43,
+      "size": [
+        18,
+        8
+      ],
+      "z": 32
+    },
+    {
+      "name": "DRIVER",
+      "face": "east",
+      "u": -32,
+      "size": [
+        12,
+        8
+      ],
+      "z": 26
+    }
+  ],
+  "interferences": [],
+  "component_envelopes": 151,
+  "tool_corridors": 30,
+  "limitations": [
+    "No physical dimensions for SET1NO+1NC rear or purchased USB cable; envelopes adjustable and physical fit required.",
+    "SMD bodies use footprint Fab envelopes; no component-mass or impact/insertion-force FEA claim.",
+    "USB cable paths are clearance envelopes, not a certified cable bend-radius model.",
+    "PA12 printing/tap pilots/foam compression/actual screw engagement require prototype verification."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "uuid": "c6c1edae-6976-4147-ab7b-0c03b02fe504",
+  "old_drill_nm": 250000,
+  "new_drill_nm": 300000,
+  "reason": "Keep baseline factory minimum 0.30 mm; do not relax fabrication rules.",
+  "before_sha256": "5d239b82db7feff42077b5e99da51d033a5ca253370981b8b5b9ec79acff49cf",
+  "after_sha256": "0b252dde64d22bcf202a298e43495cdfcc9a1e2d466675043231bdbb6430e421"
+}

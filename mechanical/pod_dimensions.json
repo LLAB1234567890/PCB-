@@ -1,0 +1,79 @@
+[
+  {
+    "name": "OPEN",
+    "model": "LAY711BN32",
+    "face": "south",
+    "u": -31,
+    "width": 52,
+    "depth": 65,
+    "body": [
+      42,
+      37,
+      49
+    ],
+    "diameter": 29,
+    "front": 14
+  },
+  {
+    "name": "CLOSE",
+    "model": "LAY711BN22",
+    "face": "south",
+    "u": 31,
+    "width": 52,
+    "depth": 65,
+    "body": [
+      42,
+      37,
+      49
+    ],
+    "diameter": 29,
+    "front": 14
+  },
+  {
+    "name": "STOP",
+    "model": "LAY711BN42",
+    "face": "north",
+    "u": 0,
+    "width": 52,
+    "depth": 65,
+    "body": [
+      42,
+      37,
+      49
+    ],
+    "diameter": 29,
+    "front": 14
+  },
+  {
+    "name": "ESTOP",
+    "model": "LAY5SBS544",
+    "face": "west",
+    "u": -22,
+    "width": 52,
+    "depth": 75,
+    "body": [
+      43,
+      31,
+      55
+    ],
+    "diameter": 40,
+    "front": 32
+  },
+  {
+    "name": "SET",
+    "model": "IANA-GQ12-11E/R/24V",
+    "face": "east",
+    "u": 0,
+    "width": 32,
+    "depth": 40,
+    "height": 34,
+    "base": 9,
+    "body": [
+      22,
+      22,
+      26
+    ],
+    "diameter": 17.5,
+    "front": 6.8
+  }
+]

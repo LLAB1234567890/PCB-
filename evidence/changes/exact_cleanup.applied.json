@@ -1,0 +1,76 @@
+{
+  "before_sha256": "0b252dde64d22bcf202a298e43495cdfcc9a1e2d466675043231bdbb6430e421",
+  "removed": [
+    {
+      "uuid": "1f338b02-fe09-4ff3-966a-1d94c914e3d8",
+      "net": "+3V3"
+    },
+    {
+      "uuid": "8ab343fd-f4b8-4f7b-87fc-ed01947274fe",
+      "net": "+3V3"
+    },
+    {
+      "uuid": "6b2f5dfa-9bd3-4995-9c69-43c24ed15c43",
+      "net": "+3V3"
+    },
+    {
+      "uuid": "e4b7c0dd-51ab-5654-ae63-e18df2026b07",
+      "net": "I2C_SDA"
+    },
+    {
+      "uuid": "3d67e8e4-7640-5a43-bf4a-e931a89657ba",
+      "net": "I2C_SDA"
+    },
+    {
+      "uuid": "de5792f6-eaac-4a7c-96d5-8aa73259efa3",
+      "net": "ESTOP_OK"
+    },
+    {
+      "uuid": "bcfe4e7c-cd7f-42ea-8d41-e94ed3e8a363",
+      "net": "ESTOP_OK"
+    },
+    {
+      "uuid": "bf9bf2bf-131f-4a78-8186-5713c089cea4",
+      "net": "ESTOP_OK"
+    }
+  ],
+  "added": [
+    {
+      "type": "segment",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "width": 0.25,
+      "a": [
+        105.088,
+        90.9625
+      ],
+      "b": [
+        105.088,
+        91.8233
+      ],
+      "uuid": "9b030eb6-4331-44ee-aa10-706edc3f0023"
+    },
+    {
+      "type": "segment",
+      "net": "ESTOP_OK",
+      "side": "top",
+      "width": 0.25,
+      "a": [
+        158.3862,
+        98.3518
+      ],
+      "b": [
+        159.4852,
+        99.4508
+      ],
+      "uuid": "f5220b9e-294d-46b7-b1dc-26611d84c061"
+    }
+  ],
+  "placements": {},
+  "zone_outlines": {},
+  "zones_added": [],
+  "silk_refs": {},
+  "after_sha256": "d33f9e33de4930ddc8f5690ecd5c1aa3031b00407ae09634dd7c11b09f1694ad",
+  "fill_return": true,
+  "net_reassignment": []
+}

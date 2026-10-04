@@ -1,0 +1,94 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-04T08:57:16",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "CurtainDrive_V3_1.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (B.Cu), 长度: 2.1466 mm",
+                    "pos": {
+                        "x": 169.5526,
+                        "y": 100.7633
+                    },
+                    "uuid": "0291ae2f-856d-4bc9-917d-ead135c9f68f"
+                },
+                {
+                    "description": "走线 [+3V3] (B.Cu), 长度: 5.0000 mm",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 100.4625
+                    },
+                    "uuid": "5ea4a514-e61d-4e02-9170-55fee204e1cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [I2C_SCL] (F.Cu), 长度: 3.5459 mm",
+                    "pos": {
+                        "x": 99.788,
+                        "y": 87.048
+                    },
+                    "uuid": "d0f6c611-4726-44f5-9ccd-9283c64d191f"
+                },
+                {
+                    "description": "B.Cu 上 R32 的焊盘 2 [I2C_SCL]",
+                    "pos": {
+                        "x": 101.9625,
+                        "y": 82.5
+                    },
+                    "uuid": "5c0a70ef-97f1-49b7-9f0c-af56911886ed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (B.Cu), 长度: 2.1466 mm",
+                    "pos": {
+                        "x": 169.5526,
+                        "y": 100.7633
+                    },
+                    "uuid": "0291ae2f-856d-4bc9-917d-ead135c9f68f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (B.Cu), 长度: 5.0000 mm",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 100.4625
+                    },
+                    "uuid": "5ea4a514-e61d-4e02-9170-55fee204e1cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

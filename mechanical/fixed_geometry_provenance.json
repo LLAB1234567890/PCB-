@@ -1,0 +1,26 @@
+{
+  "original_source": "V3.1 fixed mechanical assembly",
+  "changed_geometry": false,
+  "files": {
+    "bare_PCB_support_analysis.json": "eac1d61a878a61059cd1fb17515ba0bb7fcb29723296cce35049fe14b3cf01b9",
+    "CurtainDrive_V3_2_2L_Enclosure.FCStd": "b2f26971d22f2d112092dc6bf129b4fb8c44878e055d5381e8e836139bf7c1b6",
+    "design_parameters.json": "a46f15e7ff08756656f318bb246098f0e8ea3b79a2f9f59b1a995b7ee4a68936",
+    "Enclosure_assembly.step": "222e5bba6ee55ad4495414be78e4a6e361b4d321cc44f87ec7dd570cbe64ee49",
+    "geometry_validation.json": "a92161b7765cdb29dea1f1f482e33532c4dc285029f15df308fe6de36462d157",
+    "Lid_CLOSE.step": "0188b9e16248707808dc854bce99b8f79352c8e8df6a5db4e688f8785c7627a5",
+    "Lid_CLOSE.stl": "7d855f637cd8b230618e77634a477d87f6f20e6a393034e7ba1856cece72c2f5",
+    "Lid_ESTOP.step": "c8042e8770ff0daf9f12c0b33ba042232bcaf9cba7d3c090de99d8b55393de83",
+    "Lid_ESTOP.stl": "64d1f9c198d5995d5be7ab0cb49ad38f13a22123c9abba5a554de5245db2c965",
+    "Lid_OPEN.step": "cb97730ea8ca7c9df80b21b456b6e991e824bfa4d645af68cea5e5273f3a5e50",
+    "Lid_OPEN.stl": "fb293c86ee649dbf213d153bd5baea1bb4135f9347fcf237944c07c88586903a",
+    "Lid_SET.step": "550fc88155be02ef51ac5c5256cf2b86da4765e645350dce4799a4c061bae27a",
+    "Lid_SET.stl": "cc17282b2df288179a2b094353c4be08cec6b7308c63fedb190c691be00d64e7",
+    "Lid_STOP.step": "1da80eb3be38e3ab49a56a8fe43d41ad2422e874c57286b3c7256c770617c921",
+    "Lid_STOP.stl": "f9d83ae41ce854228476d1e5b150e1cb4ef853ecf57fc6a20aefe383357d7397",
+    "PA12_Main_and_pods.step": "7b730e51dd37b11e136270afe64a9ab95c9a846f0f180781a00c454d3ba617e5",
+    "PA12_Main_and_pods.stl": "ed32ce32d423abfe6a2b31d2fdc8f851ce4f1997004422a0648cb1b142e8f010",
+    "pod_dimensions.json": "754f13b7c1e1f9357bb9cd2acb89a8423a1229ca7d1b4da97ade7c59c331ffd7",
+    "preview_mesh.json": "4664eb73306efcb840197fac248869b80b4411d28f4a20d834bcfc0b531ae282"
+  },
+  "acceptance": "SET/USB actual part dimensions and insert fit remain prototype acceptance."
+}

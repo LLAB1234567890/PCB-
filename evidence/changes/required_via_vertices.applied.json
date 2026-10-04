@@ -1,0 +1,142 @@
+{
+  "before_sha256": "5d9a3d1f8115dc4ef705db5f115fd55067d319aa1782ae87b0cdc35aa719670d",
+  "removed": [
+    {
+      "uuid": "9b030eb6-4331-44ee-aa10-706edc3f0023",
+      "net": "I2C_SDA"
+    },
+    {
+      "uuid": "f5220b9e-294d-46b7-b1dc-26611d84c061",
+      "net": "ESTOP_OK"
+    }
+  ],
+  "added": [
+    {
+      "type": "segment",
+      "uuid": "1f338b02-fe09-4ff3-966a-1d94c914e3d8",
+      "net": "+3V3",
+      "side": "bottom",
+      "a": [
+        171.0,
+        107.0
+      ],
+      "b": [
+        170.9,
+        106.9
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "uuid": "8ab343fd-f4b8-4f7b-87fc-ed01947274fe",
+      "net": "+3V3",
+      "side": "bottom",
+      "a": [
+        160.0,
+        104.0
+      ],
+      "b": [
+        159.9,
+        103.9
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "uuid": "6b2f5dfa-9bd3-4995-9c69-43c24ed15c43",
+      "net": "+3V3",
+      "side": "bottom",
+      "a": [
+        163.2,
+        102.7
+      ],
+      "b": [
+        162.9,
+        102.4
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "uuid": "de5792f6-eaac-4a7c-96d5-8aa73259efa3",
+      "net": "ESTOP_OK",
+      "side": "top",
+      "a": [
+        159.4308,
+        99.3964
+      ],
+      "b": [
+        158.3862,
+        98.3518
+      ],
+      "width": 0.25
+    },
+    {
+      "type": "segment",
+      "uuid": "bcfe4e7c-cd7f-42ea-8d41-e94ed3e8a363",
+      "net": "ESTOP_OK",
+      "side": "top",
+      "a": [
+        158.3862,
+        98.3518
+      ],
+      "b": [
+        159.4852,
+        99.4508
+      ],
+      "width": 0.25
+    },
+    {
+      "type": "segment",
+      "uuid": "bf9bf2bf-131f-4a78-8186-5713c089cea4",
+      "net": "ESTOP_OK",
+      "side": "top",
+      "a": [
+        159.4308,
+        99.3964
+      ],
+      "b": [
+        159.4852,
+        99.4508
+      ],
+      "width": 0.25
+    },
+    {
+      "type": "segment",
+      "uuid": "e4b7c0dd-51ab-5654-ae63-e18df2026b07",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "a": [
+        105.088,
+        90.9625
+      ],
+      "b": [
+        105.088,
+        91.598
+      ],
+      "width": 0.25
+    },
+    {
+      "type": "segment",
+      "uuid": "3d67e8e4-7640-5a43-bf4a-e931a89657ba",
+      "net": "I2C_SDA",
+      "side": "bottom",
+      "a": [
+        105.088,
+        91.8233
+      ],
+      "b": [
+        105.088,
+        91.598
+      ],
+      "width": 0.25
+    }
+  ],
+  "placements": {},
+  "zone_outlines": {},
+  "zones_added": [],
+  "silk_refs": {},
+  "after_sha256": "7d6288a3e79992e387e95aa80c018b5a480a0d5dae67df03d6c3de5389c8f986",
+  "fill_return": true,
+  "net_reassignment": []
+}

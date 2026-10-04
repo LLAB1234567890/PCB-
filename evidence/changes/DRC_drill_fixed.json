@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-04T09:12:42",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "CurtainDrive_V3_1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

@@ -1,0 +1,128 @@
+{
+  "remove": [
+    "00a258e4-0161-4ca6-89ee-0cc8c3d17c95",
+    "9e0159bd-5cdf-4e0e-8e7f-f785ad643d19",
+    "b6be0216-6ec9-48b0-871e-974e3e24d477",
+    "4b567e85-c6ab-4fa7-9b97-5fad765c0abf",
+    "d38e27b8-a9c4-497b-9820-7b9e73db55ee",
+    "b0e8976f-d54a-4fc1-ab34-7ae095d2aec8",
+    "f84a113e-a21c-4aa3-a250-ec14612a9092",
+    "380b49e0-bbda-4c4a-9073-ecd5e2681ba4",
+    "9e2d18c4-c71d-4a3c-a1d5-892637598faf",
+    "71d6fde2-0003-4ef4-9e0d-1ffb154ee4c7",
+    "042142fa-b73b-4b8e-9f7c-eb4203a20027",
+    "b776c7a7-2083-45a7-8b9d-01b8be39e573",
+    "7da58e41-b091-4e03-9a5f-f7d17272c570"
+  ],
+  "items": [
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "side": "bottom",
+      "a": [
+        101.813,
+        82.473
+      ],
+      "b": [
+        101.113,
+        83.173
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "side": "top",
+      "a": [
+        101.113,
+        83.173
+      ],
+      "b": [
+        100.738,
+        83.173
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "side": "top",
+      "a": [
+        100.738,
+        83.173
+      ],
+      "b": [
+        99.788,
+        84.123
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "side": "top",
+      "a": [
+        99.788,
+        84.123
+      ],
+      "b": [
+        99.788,
+        87.048
+      ],
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "+3V3",
+      "side": "bottom",
+      "a": [
+        171.225,
+        100.4625
+      ],
+      "b": [
+        172.775,
+        100.4625
+      ],
+      "width": 1.1
+    },
+    {
+      "type": "segment",
+      "net": "+3V3",
+      "side": "bottom",
+      "a": [
+        176.225,
+        100.4625
+      ],
+      "b": [
+        177.775,
+        100.4625
+      ],
+      "width": 1.1
+    }
+  ],
+  "reason": "Replace raster stair steps with a verified 45-degree fanout; preserve all distributed 3V3 consumers through former pad landing regions.",
+  "visibility_screen": {
+    "candidate_count": 408,
+    "selected_points": [
+      [
+        101.113,
+        83.173
+      ],
+      [
+        100.738,
+        83.173
+      ],
+      [
+        99.788,
+        84.123
+      ],
+      [
+        99.788,
+        87.048
+      ]
+    ],
+    "segments": 3,
+    "minimum_foreign_copper_mm": 0.203,
+    "minimum_foreign_drill_mm": 0.251
+  }
+}

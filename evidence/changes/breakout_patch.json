@@ -1,0 +1,213 @@
+{
+  "scope": "Only the enumerated priority-group nets; all foreign existing tracks/pads/CASE are immutable obstacles",
+  "remove": [],
+  "items": [
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        101.9625,
+        82.5
+      ],
+      "b": [
+        101.963,
+        82.498
+      ],
+      "side": "bottom",
+      "width": 0.2,
+      "purpose": "exact pad centre to grid anchor"
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        101.963,
+        82.498
+      ],
+      "b": [
+        101.288,
+        83.173
+      ],
+      "side": "bottom",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        101.288,
+        83.173
+      ],
+      "b": [
+        101.113,
+        83.173
+      ],
+      "side": "bottom",
+      "width": 0.2
+    },
+    {
+      "type": "via",
+      "net": "I2C_SCL",
+      "xy": [
+        101.113,
+        83.173
+      ],
+      "diameter": 0.5,
+      "drill": 0.25
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        101.113,
+        83.173
+      ],
+      "b": [
+        100.613,
+        83.673
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.613,
+        83.673
+      ],
+      "b": [
+        100.288,
+        83.673
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.288,
+        83.673
+      ],
+      "b": [
+        100.263,
+        83.698
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.263,
+        83.698
+      ],
+      "b": [
+        100.213,
+        83.698
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.213,
+        83.698
+      ],
+      "b": [
+        100.188,
+        83.723
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.188,
+        83.723
+      ],
+      "b": [
+        100.138,
+        83.723
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.138,
+        83.723
+      ],
+      "b": [
+        100.088,
+        83.773
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.088,
+        83.773
+      ],
+      "b": [
+        100.063,
+        83.773
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        100.063,
+        83.773
+      ],
+      "b": [
+        99.788,
+        84.048
+      ],
+      "side": "top",
+      "width": 0.2
+    },
+    {
+      "type": "segment",
+      "net": "I2C_SCL",
+      "a": [
+        99.788,
+        84.048
+      ],
+      "b": [
+        99.788,
+        87.048
+      ],
+      "side": "top",
+      "width": 0.2
+    }
+  ],
+  "routes": [
+    {
+      "net": "I2C_SCL",
+      "from": "R32.2",
+      "to": "EXISTING_SCL_VIA.1",
+      "length_mm": 5.819092574491095,
+      "vias": 1,
+      "segments": 13,
+      "resistance_proxy_ohm_20C": 0.01533159371203235,
+      "search_states": 21915,
+      "seconds": 1.2660000000032596
+    }
+  ],
+  "failed": []
+}
